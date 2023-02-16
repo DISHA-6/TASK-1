@@ -1,0 +1,28 @@
+body {
+    background-color: #f7fbfb;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+img.avatar {
+    width: 10%;
+    border-radius: 10%;
+  }
+
+h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+blockquote {
+    text-align: center;
+    background-color: rgb(255, 251, 251);
+    background: 300px 200px 500px;
+    border-style: solid;
+    border-color: rgb(255, 251, 251);
+    border-top-color: rgb(111, 82, 239);
+    background-size: 50%;
+}

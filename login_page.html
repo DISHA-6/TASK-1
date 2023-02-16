@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="login_page.css">
+    <script>
+        function validate() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            if (username == "Student" && password == "1234") {
+                alert("Login successfully!!");
+                return false;
+            } else {
+                alert("Login failed");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Login page</h1>
+    <div class="imgcontainer">
+        <img src="avatar.png" alt="Avatar" class="avatar">
+        </div>
+    <blockquote>
+        <p style="padding-right: 80px;">Enter Username
+            <p1 style="color: red;">*</p1>
+        </p>
+        <input id="username" required="Gayatri">
+        <p style="padding-right: 65px;">Enter Password
+            <p1 style="color: red;">*</p1>
+        </p>
+        <input type="password" name="pwd" id="password" required="Gayatri">
+        </br>
+        </br>
+        <a href="page2.html"><input type="button" style="background-color: rgb(88, 73, 223); padding: 10px; padding-left: 70px; padding-right: 70px; color: white; border-radius: 3px; border: none ; cursor: pointer;" value="Login "></button>
+        </a>
+
+
+        <p>Forgot Password?</p>
+    </blockquote>
+
+</body>
+
+</html>
